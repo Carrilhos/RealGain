@@ -24,7 +24,7 @@ const Login = () => {
           <Text as='label' variant='big' htmlFor='email'>
             Senha
           </Text>
-          <input type='password' id='password' name='password' placeholder='Insira sua senha' ref={register} />
+          <input type='password' id='password' name='password' placeholder='Insira sua senha!' ref={register} />
         </Column>
         <Button type='submit' disabled={formState.isSubmitting} p={8} px={16}>
           ENTRAR
